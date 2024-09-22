@@ -13,16 +13,16 @@ Installation
 To get started with GuideAI, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/vanshjakhetia/GuideAI.git
+   git clone https://github.com/khana1004/GuideAI.git
    cd GuideAI
 
-2. Install the Gaia Node by running the command below:
+3. Install the Gaia Node by running the command below:
    curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
 
-3. Run the following command to update your config.json to run with a small language model:
+4. Run the following command to update your config.json to run with a small language model:
    gaianet init --config https://raw.githubusercontent.com/harishkotra/Gaia-8G/refs/heads/main/config_8g.json
 
-4. Run the node:
+5. Run the node:
    gaianet start
 
 How to Use
